@@ -6,8 +6,8 @@ const IndividualImages = ({image}) => {
 
   return (
     <>  
-    <div class="row">
-  <div class="col-sm-6 mb-3 mb-sm-0">
+    <div className="row">
+  <div className="col-sm-6 mb-3 mb-sm-0">
          <div className='card' style={{width:"18rem",marginBottom:"10px"}}>
             
       <img className="card-img-top" src={image.urls.thumb} onClick={()=>setVisible(true)}/><br/>

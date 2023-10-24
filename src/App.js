@@ -25,7 +25,7 @@ const App = () => {
 
     useEffect(()=>{
       imagesDisplay();
-    },10)
+    },[])
   return (
     <div>
       <div className='d-flex justify-content-center p-5'>
