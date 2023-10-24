@@ -8,7 +8,7 @@ const MyModal = ({image,setVisible}) => {
     <div>
       <div className='modal-wrapper'>
                 <FontAwesomeIcon icon={faTimes} onClick={()=>setVisible(false)}/>
-                    <img src={image.urls.regular} className='modal-img rounded'/><br/>
+                    <img src={image.urls.regular} className='modal-img rounded' alt="image"/><br/>
                     <div>
                         <img src={image.user.profile_image.small} style={{width:"80px",height:"80px",marginTop:"7px",borderRadius:"100%"}}/>
                         <span className='userName'>{image.user.username}</span><br/>
