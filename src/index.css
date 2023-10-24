@@ -8,7 +8,7 @@
 
 .modal-wrapper{
   position: fixed;
-  right:40%;
+  right:"40%vw";
   top:10%;
   height:650px;
   width:500px;
